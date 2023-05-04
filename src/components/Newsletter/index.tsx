@@ -1,0 +1,26 @@
+import Button from "components/Button";
+
+const Newsletter = () => {
+  return (
+    <div className='relative bg-blue'>
+      <div className='absolute bottom-0 left-0 bg-blue bg-opacity-90 px-6 pb-4 pt-1 max-w-[500px] text-white '>
+        <div className='flex justify-end'>x</div>
+        <p className='text-xl font-semibold'>
+          Get latest updates in web technologies
+        </p>
+        <p className='mt-4'>
+          I write articles related to web technologies, such as design trends,
+          development tools, UI/UX case studies and reviews, and more. Sign up
+          to my newsletter to get them all.
+        </p>
+
+        <div className='flex flex-col md:flex-row mt-6 gap-3'>
+          <input placeholder='Email address' className="px-3 py-1 w-full" />
+          <Button variant="secondary">Count me in!</Button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Newsletter;
