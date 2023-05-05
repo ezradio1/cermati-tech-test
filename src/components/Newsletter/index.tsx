@@ -13,7 +13,7 @@ const Newsletter = () => {
           'fixed bottom-0 left-0 bg-blue bg-opacity-90 px-6 py-4 max-w-[640px] text-white transition-all duration-700',
           {
             'bottom-0': show,
-            'bottom-[-1000px]': !show,
+            'bottom-[-300px]': !show,
           }
         )}>
         <div
