@@ -8,7 +8,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'header-and-hero-shot': "url('/src/assets/work-desk__dustin-lee.jpg')",
+        'header-and-hero-shot': "url('/src/assets/work-desk__dustin-lee.webp')",
       },
       colors: {
         blue: '#007bc1',
